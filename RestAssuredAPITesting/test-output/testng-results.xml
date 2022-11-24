@@ -1,17 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-21T22:32:53 EST" name="Default suite" finished-at="2022-11-21T22:32:56 EST" duration-ms="3352">
+  <suite started-at="2022-11-23T22:14:32 EST" name="Default suite" finished-at="2022-11-23T22:14:37 EST" duration-ms="5363">
     <groups>
     </groups>
-    <test started-at="2022-11-21T22:32:53 EST" name="Default test" finished-at="2022-11-21T22:32:56 EST" duration-ms="3352">
-      <class name="TC003_GET_Request">
-        <test-method signature="getUserDetails()[pri:0, instance:TC003_GET_Request@6f96c77]" started-at="2022-11-21T22:32:53 EST" name="getUserDetails" finished-at="2022-11-21T22:32:56 EST" duration-ms="3301" status="PASS">
+    <test started-at="2022-11-23T22:14:32 EST" name="Default test" finished-at="2022-11-23T22:14:37 EST" duration-ms="5363">
+      <class name="dataDrivenTesting.DataDrivenTest_AddNewEmployees">
+        <test-method signature="postAddNewEmployees(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataDrivenTest_AddNewEmployees@3e2e18f2]" started-at="2022-11-23T22:14:33 EST" name="postAddNewEmployees" data-provider="empDataProvider" finished-at="2022-11-23T22:14:35 EST" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAY001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- TC003_GET_Request -->
+        </test-method> <!-- postAddNewEmployees -->
+        <test-method signature="postAddNewEmployees(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataDrivenTest_AddNewEmployees@3e2e18f2]" started-at="2022-11-23T22:14:35 EST" name="postAddNewEmployees" data-provider="empDataProvider" finished-at="2022-11-23T22:14:36 EST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAY002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAddNewEmployees -->
+        <test-method signature="postAddNewEmployees(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataDrivenTest_AddNewEmployees@3e2e18f2]" started-at="2022-11-23T22:14:36 EST" name="postAddNewEmployees" data-provider="empDataProvider" finished-at="2022-11-23T22:14:36 EST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAY003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAddNewEmployees -->
+        <test-method signature="postAddNewEmployees(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataDrivenTest_AddNewEmployees@3e2e18f2]" started-at="2022-11-23T22:14:36 EST" name="postAddNewEmployees" data-provider="empDataProvider" finished-at="2022-11-23T22:14:37 EST" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAY004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAddNewEmployees -->
+        <test-method signature="postAddNewEmployees(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.DataDrivenTest_AddNewEmployees@3e2e18f2]" started-at="2022-11-23T22:14:37 EST" name="postAddNewEmployees" data-provider="empDataProvider" finished-at="2022-11-23T22:14:37 EST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JAY005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAddNewEmployees -->
+      </class> <!-- dataDrivenTesting.DataDrivenTest_AddNewEmployees -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
