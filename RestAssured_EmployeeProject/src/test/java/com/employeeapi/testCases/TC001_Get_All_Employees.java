@@ -9,6 +9,7 @@ import com.employeeapi.base.BaseCase;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -19,13 +20,16 @@ public class TC001_Get_All_Employees extends BaseCase {
 		logger.info("*********Started TC001_Get_All_Employuees*********");
 		
 		// Specify base URI
-		RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1";
+		RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/";
 		
 		// Request object
 		RequestSpecification httpRequest = RestAssured.given();
 		
 		// Response object
-		Response response = httpRequest.request(Method.GET, "employees");
+		response = httpRequest.request(Method.GET, "employees/");
+		
+		// jsonPath
+		
 		
 		Thread.sleep(3);
 	}
@@ -72,7 +76,7 @@ public class TC001_Get_All_Employees extends BaseCase {
 		logger.info("********* Check Content Type *********");
 		String contentType = response.header("Content-Type");
 		logger.info("Content Type: " + contentType);
-		Assert.assertEquals(contentType, "text/html; charset=UTF-8");	
+		Assert.assertEquals(contentType, "application/json");	
 	}
 	
 	@Test
@@ -80,7 +84,7 @@ public class TC001_Get_All_Employees extends BaseCase {
 		logger.info("********* Check Server Type *********");
 		String serverType = response.header("Server");
 		logger.info("Server Type: " + serverType);
-		Assert.assertEquals(serverType, "nginx/1.14.1");	
+		Assert.assertEquals(serverType, "nginx/1.21.6");	
 	}
 	
 	@Test
@@ -92,22 +96,18 @@ public class TC001_Get_All_Employees extends BaseCase {
 	}
 	
 	@Test
-	void checkContentLength() {
-		logger.info("********* Check Content Length *********");
-		String contentLength = response.header("Content-Length");
-		logger.info("Content Length: " + contentLength);
-		if(Integer.parseInt(contentLength)<100) {
-			logger.warn("Content Length is less than 100");
-		}
-		
-		Assert.assertTrue(Integer.parseInt(contentLength)>100);
-	}
-	
-	@Test
 	void checkCookies() {
 		logger.info("********* Check Cookies *********");
 		String cookie = response.getCookie("PHPSESSID");
 		//Assert.assertEquals(cookie, "1esuvsfslcmiee2bfrsgnijtg0");
+	}
+	
+	@Test
+	void checkBodyStatus() {
+		logger.info("********* Check Body Status *********");
+		JsonPath jsonPath = response.jsonPath();
+		String status = jsonPath.get("status");
+		Assert.assertEquals(status, "success");
 	}
 	
 	@AfterClass

@@ -1,0 +1,100 @@
+2022-11-28 10:18:54,108 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:18:54,398 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:18:56,983 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:18:56,991 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:18:56,997 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:18:57,002 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:18:57,007 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:18:57,012 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:18:57,016 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:18:57,019 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:18:57,023 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:18:57,027 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:18:57,197 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:18:57,208 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:18:57,212 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:18:57,216 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:18:57,222 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:18:57,227 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:18:57,230 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:18:57,234 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:18:57,238 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:18:57,241 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:19:53,365 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:19:55,368 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:19:55,374 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:19:55,381 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:19:55,387 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:19:55,392 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:19:55,397 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:19:55,401 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:19:55,407 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:19:55,412 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:19:55,416 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:21:06,356 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:21:08,680 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:21:08,690 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:21:08,697 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:21:08,704 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:21:08,710 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:21:08,716 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:21:08,720 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:21:08,725 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:21:08,730 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:21:08,734 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:21:43,627 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:21:45,758 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:21:45,768 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:21:45,775 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:21:45,779 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:21:45,787 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:21:45,792 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:21:45,798 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:21:45,802 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:21:45,807 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:21:45,812 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:24:45,713 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:24:47,780 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:24:47,781 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-11-28 10:24:47,790 [main] INFO EmployeeRestAPI - ********* Check Content Length *********
+2022-11-28 10:24:47,791 [main] INFO EmployeeRestAPI - Content Length: null
+2022-11-28 10:24:47,799 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:24:47,799 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-11-28 10:24:47,811 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:24:47,816 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:24:47,844 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-11-28 10:24:47,850 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:24:47,850 [main] INFO EmployeeRestAPI - Response Time: 947
+2022-11-28 10:24:47,854 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:24:47,854 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-11-28 10:24:47,861 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:24:47,861 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-11-28 10:24:47,868 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:24:47,868 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-11-28 10:24:47,872 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:27:24,748 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:27:27,260 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-11-28 10:27:27,260 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-11-28 10:27:27,268 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-11-28 10:27:27,269 [main] INFO EmployeeRestAPI - Content Type: null
+2022-11-28 10:27:27,284 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-11-28 10:27:27,289 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-11-28 10:27:27,328 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-11-28 10:27:27,341 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-11-28 10:27:27,342 [main] INFO EmployeeRestAPI - Response Time: 1219
+2022-11-28 10:27:27,352 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-11-28 10:27:27,353 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-11-28 10:27:27,362 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-11-28 10:27:27,363 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-11-28 10:27:27,373 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-11-28 10:27:27,374 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-11-28 10:27:27,384 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:32:45,924 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:32:48,091 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-11-28 10:32:48,139 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:34:02,413 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:34:04,541 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-11-28 10:34:04,594 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:35:52,842 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-11-28 10:35:54,908 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-11-28 10:35:55,512 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
