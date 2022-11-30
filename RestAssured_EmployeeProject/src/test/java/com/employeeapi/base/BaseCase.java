@@ -12,7 +12,7 @@ public class BaseCase {
 	
 	public static RequestSpecification httpRequest;
 	public static Response response;
-	public String empID="51838";
+	public String empID="21";
 	public Logger logger;
 	
 	@BeforeClass

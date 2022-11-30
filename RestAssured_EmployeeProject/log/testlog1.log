@@ -98,3 +98,12 @@
 2022-11-28 10:35:52,842 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
 2022-11-28 10:35:54,908 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
 2022-11-28 10:35:55,512 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-11-28 10:43:22,671 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-11-28 10:51:55,130 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-11-28 10:51:57,292 [main] INFO EmployeeRestAPI - check content type
+2022-11-28 10:51:57,317 [main] INFO EmployeeRestAPI - check Response Body
+2022-11-28 10:51:57,322 [main] INFO EmployeeRestAPI - check Response Time
+2022-11-28 10:51:57,325 [main] INFO EmployeeRestAPI - check server type
+2022-11-28 10:51:57,329 [main] INFO EmployeeRestAPI - check Status Code
+2022-11-28 10:51:57,334 [main] INFO EmployeeRestAPI - check status line
+2022-11-28 10:51:57,338 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
