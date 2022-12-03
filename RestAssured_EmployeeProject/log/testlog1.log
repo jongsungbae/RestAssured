@@ -107,3 +107,20 @@
 2022-11-28 10:51:57,329 [main] INFO EmployeeRestAPI - check Status Code
 2022-11-28 10:51:57,334 [main] INFO EmployeeRestAPI - check status line
 2022-11-28 10:51:57,338 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 15:47:00,204 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 15:47:02,419 [main] INFO EmployeeRestAPI - check content type
+2022-12-03 15:47:02,449 [main] INFO EmployeeRestAPI - check Response Body
+2022-12-03 15:47:02,454 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 15:47:02,459 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 15:47:02,464 [main] INFO EmployeeRestAPI - check Status Code
+2022-12-03 15:47:02,469 [main] INFO EmployeeRestAPI - check status line
+2022-12-03 15:47:02,474 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 16:19:48,038 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 16:22:14,129 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 16:29:41,013 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 16:29:43,041 [main] INFO EmployeeRestAPI - {"status":"success","data":{"name":"empName","job":"empSalary","age":"empAge","id":994},"message":"Successfully! Record has been added."}
+2022-12-03 16:31:45,148 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 16:31:47,436 [main] INFO EmployeeRestAPI - {"status":"success","data":{"name":"Natalie","job":"04408","age":"79","id":1002},"message":"Successfully! Record has been added."}
+2022-12-03 16:31:47,440 [main] INFO EmployeeRestAPI - check Response name
+2022-12-03 16:31:47,440 [main] INFO EmployeeRestAPI - check Response salary
+2022-12-03 16:31:47,441 [main] INFO EmployeeRestAPI - check Response age
