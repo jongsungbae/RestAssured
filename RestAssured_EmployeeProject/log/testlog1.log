@@ -201,3 +201,756 @@
 </html>
 
 2022-12-03 17:15:46,426 [main] INFO EmployeeRestAPI - ********* Finish TC005_Delete_Employee *********
+2022-12-03 17:39:28,493 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-12-03 17:39:30,473 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-12-03 17:39:31,097 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-12-03 17:39:31,098 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-12-03 17:39:31,105 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-12-03 17:39:31,106 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-12-03 17:39:31,112 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-12-03 17:39:31,119 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-12-03 17:39:31,120 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-12-03 17:39:31,125 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-12-03 17:39:31,126 [main] INFO EmployeeRestAPI - Response Time: 912
+2022-12-03 17:39:31,131 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-12-03 17:39:31,131 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-12-03 17:39:31,135 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-12-03 17:39:31,136 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-12-03 17:39:31,156 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-12-03 17:39:31,157 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-12-03 17:39:31,160 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-12-03 17:39:31,193 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:39:31,508 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:39:31,511 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:39:31,524 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:39:31,539 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 17:39:31,922 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:39:31,933 [main] INFO EmployeeRestAPI - ********* Finish TC003_Post_Employee *********
+2022-12-03 17:39:31,948 [main] INFO EmployeeRestAPI - *********Started TC003_Update_Employee*********
+2022-12-03 17:39:32,313 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:39:32,330 [main] INFO EmployeeRestAPI - ********* Finish TC004_Update_Employee *********
+2022-12-03 17:39:32,350 [main] INFO EmployeeRestAPI - *********Started TC005_Delete_Employee*********
+2022-12-03 17:48:20,626 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-12-03 17:48:22,890 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-12-03 17:48:23,502 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-12-03 17:48:23,503 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-12-03 17:48:23,508 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-12-03 17:48:23,509 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-12-03 17:48:23,517 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-12-03 17:48:23,523 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-12-03 17:48:23,524 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-12-03 17:48:23,530 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-12-03 17:48:23,532 [main] INFO EmployeeRestAPI - Response Time: 1073
+2022-12-03 17:48:23,539 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-12-03 17:48:23,539 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-12-03 17:48:23,544 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-12-03 17:48:23,545 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-12-03 17:48:23,571 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-12-03 17:48:23,571 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-12-03 17:48:23,576 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-12-03 17:48:23,600 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:48:23,916 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:48:23,920 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:48:23,929 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:48:23,951 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 17:48:24,303 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:48:24,316 [main] INFO EmployeeRestAPI - ********* Finish TC003_Post_Employee *********
+2022-12-03 17:48:24,341 [main] INFO EmployeeRestAPI - *********Started TC003_Update_Employee*********
+2022-12-03 17:48:24,690 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:48:24,702 [main] INFO EmployeeRestAPI - ********* Finish TC004_Update_Employee *********
+2022-12-03 17:48:24,722 [main] INFO EmployeeRestAPI - *********Started TC005_Delete_Employee*********
+2022-12-03 17:50:11,235 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:50:13,316 [main] INFO EmployeeRestAPI - check content type
+2022-12-03 17:50:13,340 [main] INFO EmployeeRestAPI - check Response Body
+2022-12-03 17:50:13,346 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:50:13,351 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:50:13,356 [main] INFO EmployeeRestAPI - check Status Code
+2022-12-03 17:50:13,360 [main] INFO EmployeeRestAPI - check status line
+2022-12-03 17:50:13,364 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:51:22,495 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-12-03 17:51:24,753 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-12-03 17:51:25,394 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-12-03 17:51:25,395 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-12-03 17:51:25,401 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-12-03 17:51:25,403 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-12-03 17:51:25,408 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-12-03 17:51:25,412 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-12-03 17:51:25,413 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-12-03 17:51:25,418 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-12-03 17:51:25,418 [main] INFO EmployeeRestAPI - Response Time: 1022
+2022-12-03 17:51:25,424 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-12-03 17:51:25,425 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-12-03 17:51:25,430 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-12-03 17:51:25,430 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-12-03 17:51:25,434 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-12-03 17:51:25,434 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-12-03 17:51:25,439 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-12-03 17:51:25,491 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:51:28,810 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:51:28,814 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:51:28,826 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:51:28,896 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 17:51:29,209 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:51:29,221 [main] INFO EmployeeRestAPI - ********* Finish TC003_Post_Employee *********
+2022-12-03 17:51:29,259 [main] INFO EmployeeRestAPI - *********Started TC003_Update_Employee*********
+2022-12-03 17:51:29,569 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:51:29,585 [main] INFO EmployeeRestAPI - ********* Finish TC004_Update_Employee *********
+2022-12-03 17:51:29,609 [main] INFO EmployeeRestAPI - *********Started TC005_Delete_Employee*********
+2022-12-03 17:52:22,148 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-12-03 17:52:24,439 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-12-03 17:52:25,111 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-12-03 17:52:25,113 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-12-03 17:52:25,135 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-12-03 17:52:25,137 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-12-03 17:52:25,142 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-12-03 17:52:25,149 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-12-03 17:52:25,150 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-12-03 17:52:25,159 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-12-03 17:52:25,161 [main] INFO EmployeeRestAPI - Response Time: 1067
+2022-12-03 17:52:25,165 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-12-03 17:52:25,166 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-12-03 17:52:25,171 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-12-03 17:52:25,172 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-12-03 17:52:25,177 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-12-03 17:52:25,178 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-12-03 17:52:25,182 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-12-03 17:52:25,215 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:52:28,551 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:52:28,554 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:52:28,564 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:52:28,589 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 17:52:28,954 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:52:28,965 [main] INFO EmployeeRestAPI - ********* Finish TC003_Post_Employee *********
+2022-12-03 17:52:28,985 [main] INFO EmployeeRestAPI - *********Started TC003_Update_Employee*********
+2022-12-03 17:52:29,288 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:52:29,297 [main] INFO EmployeeRestAPI - ********* Finish TC004_Update_Employee *********
+2022-12-03 17:52:29,316 [main] INFO EmployeeRestAPI - *********Started TC005_Delete_Employee*********
+2022-12-03 17:55:51,600 [main] INFO EmployeeRestAPI - *********Started TC001_Get_All_Employuees*********
+2022-12-03 17:55:54,356 [main] INFO EmployeeRestAPI - ********* Check Body Status *********
+2022-12-03 17:55:55,064 [main] INFO EmployeeRestAPI - ********* Check Content Encoding *********
+2022-12-03 17:55:55,066 [main] INFO EmployeeRestAPI - Content Encoding: gzip
+2022-12-03 17:55:55,070 [main] INFO EmployeeRestAPI - ********* Check Content Type *********
+2022-12-03 17:55:55,071 [main] INFO EmployeeRestAPI - Content Type: application/json
+2022-12-03 17:55:55,074 [main] INFO EmployeeRestAPI - ********* Check Cookies *********
+2022-12-03 17:55:55,080 [main] INFO EmployeeRestAPI - ********* Check Response Body *********
+2022-12-03 17:55:55,081 [main] INFO EmployeeRestAPI - Response Body ==> {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-12-03 17:55:55,087 [main] INFO EmployeeRestAPI - ********* Check Response Time *********
+2022-12-03 17:55:55,088 [main] INFO EmployeeRestAPI - Response Time: 1137
+2022-12-03 17:55:55,091 [main] INFO EmployeeRestAPI - ********* Check Server Type *********
+2022-12-03 17:55:55,091 [main] INFO EmployeeRestAPI - Server Type: nginx/1.21.6
+2022-12-03 17:55:55,097 [main] INFO EmployeeRestAPI - ********* Check Status Code *********
+2022-12-03 17:55:55,098 [main] INFO EmployeeRestAPI - Status Code: 200
+2022-12-03 17:55:55,103 [main] INFO EmployeeRestAPI - ********* Check Status Line *********
+2022-12-03 17:55:55,104 [main] INFO EmployeeRestAPI - Status Line: HTTP/1.1 200 OK
+2022-12-03 17:55:55,107 [main] INFO EmployeeRestAPI - ********* Finish TC001_Get_All_Employees *********
+2022-12-03 17:55:55,157 [main] INFO EmployeeRestAPI - *********Started TC002_Get_Single_Employee*********
+2022-12-03 17:55:58,479 [main] INFO EmployeeRestAPI - check Response Time
+2022-12-03 17:55:58,483 [main] INFO EmployeeRestAPI - check server type
+2022-12-03 17:55:58,494 [main] INFO EmployeeRestAPI - ********* Finish TC002_Get_Single_Employee *********
+2022-12-03 17:55:58,513 [main] INFO EmployeeRestAPI - *********Started TC003_Post_Employee*********
+2022-12-03 17:55:58,863 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:55:58,875 [main] INFO EmployeeRestAPI - ********* Finish TC003_Post_Employee *********
+2022-12-03 17:55:58,894 [main] INFO EmployeeRestAPI - *********Started TC003_Update_Employee*********
+2022-12-03 17:55:59,187 [main] INFO EmployeeRestAPI - <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-12-03 17:55:59,198 [main] INFO EmployeeRestAPI - ********* Finish TC004_Update_Employee *********
+2022-12-03 17:55:59,214 [main] INFO EmployeeRestAPI - *********Started TC005_Delete_Employee*********

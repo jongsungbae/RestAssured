@@ -25,7 +25,7 @@ public class TC002_Get_Single_Employee_Record extends BaseCase {
 		// Response object
 		response = httpRequest.request(Method.GET, "employee/" + empID);
 
-		Thread.sleep(3);
+		Thread.sleep(3000);
 	}
 	
 	@Test
