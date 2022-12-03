@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-03T16:31:44 EST" name="Default suite" finished-at="2022-12-03T16:31:47 EST" duration-ms="2492">
+  <suite started-at="2022-12-03T16:59:03 EST" name="Default suite" finished-at="2022-12-03T16:59:05 EST" duration-ms="2258">
     <groups>
     </groups>
-    <test started-at="2022-12-03T16:31:44 EST" name="Default test" finished-at="2022-12-03T16:31:47 EST" duration-ms="2492">
-      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@6cd45b6c]" started-at="2022-12-03T16:31:44 EST" name="setup" finished-at="2022-12-03T16:31:45 EST" duration-ms="157" status="PASS">
+    <test started-at="2022-12-03T16:59:03 EST" name="Default test" finished-at="2022-12-03T16:59:05 EST" duration-ms="2258">
+      <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:03 EST" name="setup" finished-at="2022-12-03T16:59:03 EST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@6cd45b6c]" started-at="2022-12-03T16:31:45 EST" name="createEmployee" finished-at="2022-12-03T16:31:47 EST" duration-ms="2249" status="PASS">
+        <test-method is-config="true" signature="updateEmployee()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:03 EST" name="updateEmployee" finished-at="2022-12-03T16:59:05 EST" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createEmployee -->
-        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@6cd45b6c]" started-at="2022-12-03T16:31:47 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T16:31:47 EST" duration-ms="33" status="PASS">
+        </test-method> <!-- updateEmployee -->
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:05 EST" name="checkContentType" finished-at="2022-12-03T16:59:05 EST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:05 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T16:59:05 EST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseEmpInfo -->
-      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:05 EST" name="checkStatusCode" finished-at="2022-12-03T16:59:05 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:05 EST" name="checkStatusLine" finished-at="2022-12-03T16:59:05 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@7910f355]" started-at="2022-12-03T16:59:05 EST" name="tearDown" finished-at="2022-12-03T16:59:05 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

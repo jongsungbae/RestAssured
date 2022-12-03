@@ -124,3 +124,12 @@
 2022-12-03 16:31:47,440 - EmployeeRestAPI -INFO - check Response name
 2022-12-03 16:31:47,440 - EmployeeRestAPI -INFO - check Response salary
 2022-12-03 16:31:47,441 - EmployeeRestAPI -INFO - check Response age
+2022-12-03 16:59:03,232 - EmployeeRestAPI -INFO - *********Started TC003_Update_Employee*********
+2022-12-03 16:59:05,292 - EmployeeRestAPI -INFO - check content type
+2022-12-03 16:59:05,310 - EmployeeRestAPI -INFO - {"status":"success","data":{"name":"Jacquelyn","job":"00020","age":"72"},"message":"Successfully! Record has been updated."}
+2022-12-03 16:59:05,311 - EmployeeRestAPI -INFO - check Response name
+2022-12-03 16:59:05,311 - EmployeeRestAPI -INFO - check Response salary
+2022-12-03 16:59:05,312 - EmployeeRestAPI -INFO - check Response age
+2022-12-03 16:59:05,317 - EmployeeRestAPI -INFO - check Status Code
+2022-12-03 16:59:05,324 - EmployeeRestAPI -INFO - check status line
+2022-12-03 16:59:05,328 - EmployeeRestAPI -INFO - ********* Finish TC004_Update_Employee *********
