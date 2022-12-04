@@ -38,7 +38,6 @@ public class Reporting extends TestListenerAdapter {
 		extent.setSystemInfo("Host namd", "localhost");
 		extent.setSystemInfo("Environment", "QA");
 		extent.setSystemInfo("user", "Jay");
-		
 
 	}
 	

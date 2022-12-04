@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="26" passed="11" failed="12" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-03T17:55:51 EST" name="EmployeesRestAPISuite" finished-at="2022-12-03T17:55:59 EST" duration-ms="8381">
+  <suite started-at="2022-12-03T18:11:09 EST" name="EmployeesRestAPISuite" finished-at="2022-12-03T18:11:16 EST" duration-ms="7384">
     <groups>
     </groups>
-    <test started-at="2022-12-03T17:55:51 EST" name="EmployeesRestAPI Test" finished-at="2022-12-03T17:55:59 EST" duration-ms="8381">
+    <test started-at="2022-12-03T18:11:09 EST" name="EmployeesRestAPI Test" finished-at="2022-12-03T18:11:16 EST" duration-ms="7384">
       <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="setup" finished-at="2022-12-03T17:55:58 EST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="setup" finished-at="2022-12-03T18:11:15 EST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="createEmployee" finished-at="2022-12-03T17:55:58 EST" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="createEmployee" finished-at="2022-12-03T18:11:15 EST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createEmployee -->
-        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="checkContentType" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="checkContentType" finished-at="2022-12-03T18:11:15 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [application/json] but found [text/html; charset=UTF-8]]]>
@@ -61,7 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T17:55:58 EST" duration-ms="3" status="FAIL">
+        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T18:11:15 EST" duration-ms="4" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -107,7 +107,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseEmpInfo -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="checkStatusCode" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="checkStatusCode" finished-at="2022-12-03T18:11:15 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [429]]]>
@@ -153,7 +153,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="checkStatusLine" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="checkStatusLine" finished-at="2022-12-03T18:11:15 EST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]]]>
@@ -199,17 +199,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T17:55:58 EST" name="tearDown" finished-at="2022-12-03T17:55:58 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@77cddc0c]" started-at="2022-12-03T18:11:15 EST" name="tearDown" finished-at="2022-12-03T18:11:15 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
       <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="setup" finished-at="2022-12-03T17:55:59 EST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="setup" finished-at="2022-12-03T18:11:16 EST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="deleteEmployee()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="deleteEmployee" finished-at="2022-12-03T17:55:59 EST" duration-ms="306" status="FAIL">
+        <test-method is-config="true" signature="deleteEmployee()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="deleteEmployee" finished-at="2022-12-03T18:11:16 EST" duration-ms="336" status="FAIL">
           <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
               <![CDATA[Failed to parse the JSON document]]>
@@ -260,7 +260,7 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmployee -->
-        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="checkResponseBody" finished-at="2022-12-03T17:55:59 EST" duration-ms="0" status="SKIP">
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="checkResponseBody" finished-at="2022-12-03T18:11:16 EST" duration-ms="0" status="SKIP">
           <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
               <![CDATA[Failed to parse the JSON document]]>
@@ -311,7 +311,7 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="checkStatusCode" finished-at="2022-12-03T17:55:59 EST" duration-ms="0" status="SKIP">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="checkStatusCode" finished-at="2022-12-03T18:11:16 EST" duration-ms="0" status="SKIP">
           <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
               <![CDATA[Failed to parse the JSON document]]>
@@ -362,7 +362,7 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="checkStatusLine" finished-at="2022-12-03T17:55:59 EST" duration-ms="0" status="SKIP">
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="checkStatusLine" finished-at="2022-12-03T18:11:16 EST" duration-ms="0" status="SKIP">
           <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
               <![CDATA[Failed to parse the JSON document]]>
@@ -413,71 +413,71 @@ at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T17:55:59 EST" name="tearDown" finished-at="2022-12-03T17:55:59 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@52d68eb9]" started-at="2022-12-03T18:11:16 EST" name="tearDown" finished-at="2022-12-03T18:11:16 EST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
       <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:51 EST" name="setup" finished-at="2022-12-03T17:55:51 EST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:09 EST" name="setup" finished-at="2022-12-03T18:11:09 EST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:51 EST" name="getAllEmployees" finished-at="2022-12-03T17:55:54 EST" duration-ms="2731" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:09 EST" name="getAllEmployees" finished-at="2022-12-03T18:11:11 EST" duration-ms="1908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkBodyStatus()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:54 EST" name="checkBodyStatus" finished-at="2022-12-03T17:55:55 EST" duration-ms="687" status="PASS">
+        <test-method signature="checkBodyStatus()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:11 EST" name="checkBodyStatus" finished-at="2022-12-03T18:11:12 EST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBodyStatus -->
-        <test-method signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkContentEncoding" finished-at="2022-12-03T17:55:55 EST" duration-ms="6" status="PASS">
+        <test-method signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkContentEncoding" finished-at="2022-12-03T18:11:12 EST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentEncoding -->
-        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkContentType" finished-at="2022-12-03T17:55:55 EST" duration-ms="3" status="PASS">
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkContentType" finished-at="2022-12-03T18:11:12 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkCookies()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkCookies" finished-at="2022-12-03T17:55:55 EST" duration-ms="2" status="PASS">
+        <test-method signature="checkCookies()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkCookies" finished-at="2022-12-03T18:11:12 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCookies -->
-        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkResponseBody" finished-at="2022-12-03T17:55:55 EST" duration-ms="6" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkResponseBody" finished-at="2022-12-03T18:11:12 EST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkResponseTime" finished-at="2022-12-03T17:55:55 EST" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkResponseTime" finished-at="2022-12-03T18:11:12 EST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkServerType" finished-at="2022-12-03T17:55:55 EST" duration-ms="2" status="PASS">
+        <test-method signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkServerType" finished-at="2022-12-03T18:11:12 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkServerType -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkStatusCode" finished-at="2022-12-03T17:55:55 EST" duration-ms="5" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkStatusCode" finished-at="2022-12-03T18:11:12 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="checkStatusLine" finished-at="2022-12-03T17:55:55 EST" duration-ms="4" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="checkStatusLine" finished-at="2022-12-03T18:11:12 EST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T17:55:55 EST" name="tearDown" finished-at="2022-12-03T17:55:55 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@49ec71f8]" started-at="2022-12-03T18:11:12 EST" name="tearDown" finished-at="2022-12-03T18:11:12 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
       <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:58 EST" name="setup" finished-at="2022-12-03T17:55:58 EST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:15 EST" name="setup" finished-at="2022-12-03T18:11:16 EST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="updateEmployee()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:58 EST" name="updateEmployee" finished-at="2022-12-03T17:55:59 EST" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="updateEmployee()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="updateEmployee" finished-at="2022-12-03T18:11:16 EST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateEmployee -->
-        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:59 EST" name="checkContentType" finished-at="2022-12-03T17:55:59 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="checkContentType" finished-at="2022-12-03T18:11:16 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [application/json] but found [text/html; charset=UTF-8]]]>
@@ -523,7 +523,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:59 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T17:55:59 EST" duration-ms="2" status="FAIL">
+        <test-method signature="checkResponseEmpInfo()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="checkResponseEmpInfo" finished-at="2022-12-03T18:11:16 EST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -569,7 +569,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseEmpInfo -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:59 EST" name="checkStatusCode" finished-at="2022-12-03T17:55:59 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="checkStatusCode" finished-at="2022-12-03T18:11:16 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [429]]]>
@@ -615,7 +615,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:59 EST" name="checkStatusLine" finished-at="2022-12-03T17:55:59 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="checkStatusLine" finished-at="2022-12-03T18:11:16 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]]]>
@@ -661,21 +661,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T17:55:59 EST" name="tearDown" finished-at="2022-12-03T17:55:59 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC004_Put_Employee_Record@13ac1657]" started-at="2022-12-03T18:11:16 EST" name="tearDown" finished-at="2022-12-03T18:11:16 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
       <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:55 EST" name="setup" finished-at="2022-12-03T17:55:55 EST" duration-ms="45" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:12 EST" name="setup" finished-at="2022-12-03T18:11:12 EST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:55 EST" name="getAllEmployees" finished-at="2022-12-03T17:55:58 EST" duration-ms="3303" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:12 EST" name="getAllEmployees" finished-at="2022-12-03T18:11:15 EST" duration-ms="3291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployees -->
-        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkContentType" finished-at="2022-12-03T17:55:58 EST" duration-ms="7" status="FAIL">
+        <test-method signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkContentType" finished-at="2022-12-03T18:11:15 EST" duration-ms="13" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [application/json] but found [text/html; charset=UTF-8]]]>
@@ -721,7 +721,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkResponseBody" finished-at="2022-12-03T17:55:58 EST" duration-ms="5" status="FAIL">
+        <test-method signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkResponseBody" finished-at="2022-12-03T18:11:15 EST" duration-ms="7" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -767,15 +767,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkResponseTime" finished-at="2022-12-03T17:55:58 EST" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkResponseTime" finished-at="2022-12-03T18:11:15 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkServerType" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="PASS">
+        <test-method signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkServerType" finished-at="2022-12-03T18:11:15 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkServerType -->
-        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkStatusCode" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="FAIL">
+        <test-method signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkStatusCode" finished-at="2022-12-03T18:11:15 EST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [429]]]>
@@ -821,7 +821,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="checkStatusLine" finished-at="2022-12-03T17:55:58 EST" duration-ms="2" status="FAIL">
+        <test-method signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="checkStatusLine" finished-at="2022-12-03T18:11:15 EST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]]]>
@@ -867,7 +867,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T17:55:58 EST" name="tearDown" finished-at="2022-12-03T17:55:58 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC002_Get_Single_Employee_Record@131774fe]" started-at="2022-12-03T18:11:15 EST" name="tearDown" finished-at="2022-12-03T18:11:15 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
